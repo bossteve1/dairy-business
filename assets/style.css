@@ -1,4 +1,9 @@
-.content{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#content{
     display: flex;
 }
 .sidebar{
@@ -14,4 +19,37 @@
 .display_content>p{
     padding: 2%;
     box-shadow: 5px 5px 10px 4px #888888;
+}
+.landing{
+    height: 100vh;
+    /* to darkeb background image */
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./images/laanding.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.landing_content{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+.header{
+    padding: 8%;
+    font-size: 70px;
+    color: red;
+}
+button{
+    background-color: red;
+    margin: 10%;
+    padding: 1%;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+}
+button:hover{
+    box-shadow: 3px 3px 3px rgb(184, 140, 140);
+}
+a{
+    text-decoration: none;
+    color: white;
 }
