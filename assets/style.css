@@ -1,0 +1,17 @@
+.content{
+    display: flex;
+}
+.sidebar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: 2px red solid;
+}
+.display_content{
+    border: 2px greenyellow solid;
+    padding: 10%;
+}
+.display_content>p{
+    padding: 2%;
+    box-shadow: 5px 5px 10px 4px #888888;
+}
