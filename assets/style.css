@@ -8,12 +8,10 @@
 }
 .sidebar{
     width: 100%;
-    display: flex;
-    justify-content: space-around;
-    border: 2px red solid;
+    border-right: 1px solid grey;
+    padding: 3%;
 }
 .display_content{
-    border: 2px greenyellow solid;
     padding: 10%;
 }
 .display_content>p{
@@ -52,4 +50,15 @@ button:hover{
 a{
     text-decoration: none;
     color: white;
+}
+.sidebar_content>p{
+    margin: 10%;
+    padding: 5%;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+}
+.sidebar_content>p:hover{
+    box-shadow: 3px 3px 10px 3px #f74f4f;
 }
