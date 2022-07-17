@@ -1,4 +1,6 @@
 var prod = document.getElementById('prod')
+var income =document.getElementByI('income')
+var monthly = document.getElementById('monthly')
 var report = document.getElementById('reports')
 
 prod.addEventListener('click', function(){
