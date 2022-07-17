@@ -14,7 +14,7 @@
 .display_content{
     padding: 10%;
 }
-.display_content>p{
+#reports{
     padding: 2%;
     box-shadow: 5px 5px 10px 4px #888888;
 }
